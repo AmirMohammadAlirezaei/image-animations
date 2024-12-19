@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>image transitions</title>
+  </head>
+  <body>
+    <h1 class="title">image transitions</h1>
+    <div class="images">
+      <div class="image-container">
+        <img src="./images/kaneki_ken.jpg" alt="" />
+        <img class="transition-image" src="./images/Skelly.jpg" alt="" />
+      </div>
+      <div class="image-container fade">
+        <img src="./images/Shocked_Owl.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
